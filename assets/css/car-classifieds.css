@@ -1,0 +1,931 @@
+ @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
+ 
+ .car-classifieds {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+ }
+ 
+ .car-classifieds .clearfix {
+	display: block;
+ }
+ 
+ .jpro-checkbox {
+    position: absolute;
+	cursor: pointer;
+	opacity: 0;
+ }
+ 
+ .jpro-checkbox + label span {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../img/check_radio_sheet.png) left top no-repeat;
+    cursor: pointer;
+ }
+ 
+ .jpro-checkbox:checked + label span {
+    background: url(../img/check_radio_sheet.png) -19px top no-repeat;
+ }
+ 
+ .car-classifieds a {
+	border-bottom: 0 none;
+	-webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	   -moz-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	    -ms-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	     -o-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	        transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+ }
+ 
+ .car-classifieds a:hover {
+	background-color: transparent;
+ }
+ 
+ .car-classifieds h3 {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	border-bottom: 1px solid #dddcdc;
+	margin-bottom: 30px;
+ }
+ 
+ .car-classifieds h3 span {
+	border-bottom: 3px solid #3bafda;
+	position: relative;
+	bottom: 2px;
+ }
+ 
+ .car-classifieds h6,
+ .car-classifieds h6 a {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+	font-size: 19px !important;
+	text-decoration: none;
+	margin-bottom: 10px;
+	margin: 0;
+ }
+ 
+ .car-classifieds h6 a:hover,
+ .car-classifieds h6 a:focus {
+	text-decoration: none;
+	outline: none;
+ }
+ 
+ .car-classifieds button,
+ .jpro-panel button {
+	text-transform: capitalize;
+ }
+ 
+ .car-classifieds ul {
+	padding: 0 !important;
+	margin: 0 !important;
+ }
+ 
+ .car-classifieds ul li {
+	list-style: none;
+	padding: 0;
+ }
+ 
+ .car-classifieds label span.required {
+	color: red;
+ }
+ 
+ .car-classifieds textarea {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+	font-size: 13px;
+ }
+ 
+ .car-classifieds input.error,
+ .car-classifieds select.error,
+ .car-classifieds textarea.error {
+	border-color: red;
+ }
+ 
+ .car-classifieds .images-wrapper {
+	padding: 25px 10px;
+	border: 1px solid #dddcdc;
+	margin-bottom: 30px;
+ }
+ 
+ .car-classifieds .images-wrapper.error {
+	border-color: red;
+ }
+ 
+ .text-align-center {
+	text-align: center;
+ }
+ 
+ #jpro-step1, 
+ #jpro-step2, 
+ #jpro-step3,
+ #jpro-step4
+  #jpro-step5 {
+	margin-bottom: 50px;
+ }
+ 
+ #add_classified .col-md-3.col-sm-3 {
+	margin-bottom: 10px;
+ }
+ 
+/*####################################
+ * Bootstrap Alert Boxes
+ *####################################*/
+ .jpro-cars .alert.alert-danger,
+ .jpro-cars .alert.alert-success,
+ .jpro-cars .alert.alert-warning.alert-dismissable,
+ .car-classifieds .alert.alert-danger,
+ .car-classifieds .alert.alert-success,
+ .car-classifieds .alert.alert-warning.alert-dismissable {
+	font-size: 14px;
+ }
+ 
+/*####################################
+ * CARS TOP FILTER
+ *####################################*/
+ .cars-top-filter {
+	border-bottom: 1px solid #dddcdc;
+	border-top: 1px solid #dddcdc;
+	margin-bottom: 25px;
+	padding-top: 4px;
+	width: 100%;
+ }
+ 
+ .cars-top-filter a {
+	font-size: 14px;
+	vertical-align: -webkit-baseline-middle;
+ }
+ 
+ .cars-top-filter a:hover {
+	background-color: transparent;
+ }
+ 
+ .cars-top-filter .pull-left a {
+	box-shadow: none;
+	vertical-align: text-bottom;
+	text-decoration: none;
+	margin-right: 20px;
+ }
+ 
+ .cars-top-filter .pull-right a {
+	box-shadow: none;
+	color: #7f858b;
+ }
+ 
+ .cars-top-filter .pull-right a:hover {
+	color: #F5AE2D;
+ }
+ 
+ .cars-top-filter .pull-right a:nth-child(1) {
+	margin-right: 10px;
+ }
+
+/*####################################
+ * CAR CLASSIFIEDS LOOP PAGE STYLING
+ *####################################*/
+ .car-classifieds.loop .btn-details {
+	font-family: 'Open Sans', san-serif;
+	font-size: 13px;
+	text-decoration: none;
+	background-color: #7f858b;
+	padding: 5px 10px;
+	color: #fbfafa;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+ }
+ 
+ .car-classifieds.loop .btn-details:hover {
+	background-color: #3bafda;
+	color: #fff;
+ }
+ 
+ .owl-carousel .warranty {
+	text-align: center;
+	position: absolute;
+	background-color: #000;
+	bottom: 3px;
+	right: 4px;
+	padding: 5px 10px;
+	opacity: .5;
+	color: #fff;
+ }
+ 
+ .car-classifieds.loop .warranty,
+ .car-classifieds.page .warranty {
+	text-align: center;
+	position: absolute;
+	background-color: #000;
+	bottom: 0;
+	right: 15px;
+	padding: 5px 10px;
+	opacity: .5;
+	color: #fff;
+ }
+ 
+ .car-classifieds.loop .car-thumbnail img {
+	max-width: 100%;
+	height: auto;
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+ }
+ 
+ .car-classifieds.loop .car-thumbnail .no-image {
+	border: 1px solid #dddcdc;
+ }
+ 
+ .car-classifieds.loop article .title-price-container h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+	float: left;
+	width: 70%;
+ }
+ 
+ .car-classifieds.loop article .title-price-container span.price {
+	font-size: 18px;
+	float: right;
+ }
+ 
+ .car-classifieds.loop article .car-info ul {
+	/*margin-top: 20px;*/
+	clear: both;
+ }
+ 
+ .car-classifieds.loop article .car-info li {
+	background: none !important;
+	padding: 0 !important;
+	margin-left: 0 !important;
+	margin-bottom: 5px;
+	border-bottom: 0 none !important;
+	list-style: none !important;
+ }
+ 
+ .car-classifieds.loop article .car-info span.price {
+	background-color: #F5AE2D;
+	line-height: 1;
+	padding: 5px;
+	color: #ffffff;
+	float: right;
+ }
+ 
+ .car-classifieds.loop article .aditional-info {
+	margin-top: 15px;
+	padding: 5px;
+ }
+ 
+ .car-classifieds.loop article .aditional-info ul li {
+	width: auto;
+	height: 35px;
+	margin: 0;
+	display: inline-block;
+	padding: 0 !important;
+	background: none !important;
+	border-bottom: 0 none !important;
+ }
+ 
+ .car-classifieds.loop article .aditional-info ul li  span {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 5px 10px;
+	margin-right: 10px;
+	background-color: #ececec;
+	border: 1px solid #dbdbdb;
+	cursor: pointer;
+	color: #a0a0a0;
+	-webkit-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	   -moz-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	    -ms-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	     -o-transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+	        transition: background-color .2s ease, border .2s ease, color .2s ease, opacity .2s ease-in-out;
+ }
+ 
+ .car-classifieds.loop article .aditional-info span:hover {
+	background-color: #fff;
+	color: #a0a0a0;
+ }
+ 
+ /* Pagination */
+ #jpro-pagination .page-numbers {
+	font-size: 14px;
+	text-decoration: none;
+	background-color: #ececec;
+	border: 1px solid #dbdbdb;
+	padding: 5px 10px;
+	color: #a0a0a0;
+ }
+ 
+ #jpro-pagination .page-numbers.current,
+ #jpro-pagination .page-numbers:hover {
+	background-color: #fff;
+ }
+ 
+/*####################################
+ * CARS CLASSIFIEDS LOOP | LIST STYLE
+ *####################################*/
+ .car-classifieds.loop .cars-list article {
+	border-bottom: 1px dashed #dddcdc;
+	padding-top: 15px !important;
+	padding-bottom: 0 !important;
+	clear: both;
+ }
+ 
+ .car-classifieds.loop .cars-list article:hover {
+	background-color: #f9f8ee;
+ }
+ 
+ .car-classifieds.loop .cars-list article .car-thumbnail span.price {
+	display: none;
+ }
+ 
+ .car-classifieds.loop .cars-list article .car-info {
+	font-size: 14px;
+	float: left;
+ }
+ 
+ .car-classifieds.loop .cars-list article .car-info span {
+	font-weight: normal;
+ }
+ 
+ @media screen and (max-width: 767px) {
+    .car-classifieds.loop .cars-list article .car-info {
+		margin-top: 20px;
+		width: 100%;
+	}
+ }
+ 
+/*####################################
+ * CARS CLASSIFIEDS LOOP | GRID STYLE
+ *####################################*/
+ .car-classifieds.loop .cars-grid article {
+	display: inline-block;
+	margin-bottom: 10px;
+	max-width: 30%;
+ }
+ 
+ .car-classifieds.loop .cars-grid article:last-child {
+	margin-right: 0;
+ }
+ 
+ .car-classifieds.loop .cars-grid article .car-thumbnail {
+	width: 100%;
+ }
+ 
+ .car-classifieds.loop .cars-grid article .car-info {
+	max-width: 100%;
+	clear: both;
+ }
+ 
+ .car-classifieds.loop .cars-grid article .car-info ul {
+	clear: both;
+	display: none;
+ }
+ 
+ .car-classifieds.loop .cars-grid article .car-info {
+	display: none;
+ }
+ 
+ .car-classifieds.loop .cars-grid article .car-thumbnail span.price {
+	background-color: #F5AE2D;
+	position: absolute;
+	line-height: 1;
+	padding: 5px;
+	color: #ffffff;
+	display: block;
+	top: 0;
+ }
+ 
+ .car-classifieds.loop .cars-grid article .aditional-info {
+	display: none;
+ }
+ 
+/*####################################
+ * SINGLE CAR PAGE
+ *####################################*/
+ #car-classifieds-single .panel {
+	border: 1px solid #e3e3e3;
+ }
+ 
+ #car-classifieds-single .panel #car-classifieds-tabs li a {
+	border: none;
+	border-radius: 0;
+	background-color: #f1f2f2;
+	border-top: 3px solid #f1f2f2;
+ }
+ 
+ #car-classifieds-single .panel #car-classifieds-tabs li.active a {
+	border-top: 3px solid #ec971f;
+	background-color: #fff;
+ }
+ 
+ #car-classifieds-single h3 {
+	font-size: 22px;
+	margin: 20px 0;
+ }
+ 
+ #car-classifieds-single .jpro-cars-main-image img {
+	width: 100%;
+ }
+ 
+ #car-classifieds-single .jpro-cars-main-image .jpro-cars-main-image-price {
+	background-color: #F5AE2D;
+	padding: 5px 20px;
+	position: absolute;
+	color: #fff;
+	top: 0;
+	right: 15px;
+ }
+ 
+ #car-classifieds-single .jpro-thumbs {
+	display: inline-block;
+	margin-top: 10px;
+	max-width: 100%;
+ }
+ 
+ #car-classifieds-single .jpro-thumbs a {
+	cursor: webkit-zoom-in;
+	cursor: moz-zoom-in;
+	cursor: zoom-in;
+ }
+ 
+ #car-classifieds-single .jpro-thumbs img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	max-width: 100%;
+	height: auto;
+ }
+ 
+ #car-classifieds-single .jpro-thumbs a {
+	padding: 0;
+	margin-right: 10px;
+ }
+ 
+ #car-classifieds-single .jpro-thumbs a:focus {
+	outline: none;
+ }
+ 
+ #car-classifieds-single .jpro-thumbs a:last-child {
+	margin-right: 0;
+ }
+ 
+ #contact-seller a {
+	text-decoration: none;
+	cursor: pointer;
+ }
+ 
+/*####################################
+ * Single Page Tabs
+ *####################################*/
+ #car-classifieds-tabs li a {
+	font-size: 15px;
+	text-decoration: none;
+ }
+ 
+ #car-classifieds-tabs li a:focus {
+	outline: none;
+ }
+ 
+ #car-classifieds-tabs-content {
+	display: block !important;
+ }
+ 
+ #car-classifieds-tabs-content .cell {
+	overflow: hidden;
+	color: #798FA1;
+	padding: 7px 15px 8px;
+	line-height: 18px;
+ }
+
+ #car-classifieds-single #car-description p {
+	line-height: 2;
+ }
+
+ #car-classifieds-tabs-content .cell:nth-child(2n+2) {
+	background-color: #efefef;
+ }
+
+ #car-classifieds-tabs-content .cell .left {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	font-weight: bold;
+	color: #293848;
+	float: left;
+	width: 250px;
+ }
+ 
+ #car-classifieds-tabs-content .cell .right {
+	font-size: 14px;
+	font-weight: normal;
+ }
+
+ #car-classifieds-tabs-content input[type="checkbox"] {
+	margin-left: 0;
+ }
+
+ #car-classifieds-tabs-content .checkbox {
+	margin-bottom: 0;
+ }
+
+ #car-classifieds-tabs-content #car-description {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+	font-weight: normal;
+	padding: 10px 20px;
+ }
+
+ #car-classifieds-tabs-content textarea.form-control {
+	height: auto;
+	display: block;
+	width: 100%;
+	padding: 9px 12px;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #555555;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #dddddd;
+	border-radius: 0px;
+	-webkit-transition: border-color ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s;
+	transition: border-color ease-in-out .15s;
+ }
+
+ #car-classifieds-tabs-content textarea.form-control:focus {
+	border-color: #75a5e4;
+	outline: 0;
+ }
+ 
+ #car-classifieds-tabs-content .form-control-static {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+ }
+ 
+ #car-classifieds-tabs-content .text-muted {
+	color: #999999;
+ }
+ 
+/*####################################
+ * MY CLASSIFIEDS PAGE
+ *####################################*/
+ .jpro-action-links ul {
+	margin-bottom: 20px;
+ }
+ 
+ .jpro-action-links ul li {
+	background-color: #7f858b;
+	display: inline-flex;
+	margin-right: 10px;
+	padding: 5px 10px;
+ }
+ 
+ .jpro-action-links ul li a {
+	font-size: 14px;
+	line-height: 1;
+	color: #fff;
+ }
+ 
+ .jpro-action-links ul li a:hover {
+	text-decoration: none;
+ }
+ 
+ .jpro-action-links ul li a:focus {
+	outline: none;
+ }
+
+/*####################################
+ * ADD NEW CLASSIFIED PAGE
+ *####################################*/
+ .car-classifieds.loop,
+ #add-classified-wrapper:after {
+	content: "";
+	clear: both;
+	display: table;
+	width: 100%;
+ }
+ 
+ #add-classified-wrapper #wp-car-description-wrap {
+	border: 1px solid #E6E6E6;
+	padding: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+ }
+ 
+ #add-classified-wrapper textarea {
+	height: 100px;
+ }
+ 
+ .car-classifieds .button,
+ .widget_jp_widget_search_cars .button,
+ .widget_jp_widget_my_profile .button {
+	padding: 0.428571429rem 0.714285714rem !important;
+	font-size: 12px !important;
+	font-size: 0.785714286rem;
+	line-height: 1.428571429;
+	font-weight: normal;
+	text-transform: capitalize;
+	color: #7c7c7c !important;
+	background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+ }
+ 
+ .car-classifieds .button:hover,
+ .widget_jp_widget_search_cars .button:hover,
+ .widget_jp_widget_my_profile .button:hover,
+ .car-classifieds .button:focus,
+ .widget_jp_widget_search_cars .button:focus,
+ .widget_jp_widget_my_profile .button:focus {
+	color: #5e5e5e !important;
+	background-color: #ebebeb;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: linear-gradient(top, #f9f9f9, #ebebeb);
+ }
+ 
+ .car-classifieds .button:active,
+ .widget_jp_widget_search_cars .button:active,
+ .widget_jp_widget_my_profile .button:active {
+	color: #757575 !important;
+	background-color: #e1e1e1;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: -ms-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: -webkit-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: -o-linear-gradient(top, #ebebeb, #e1e1e1);
+	background-image: linear-gradient(top, #ebebeb, #e1e1e1);
+	box-shadow: inset 0 0 8px 2px #c6c6c6, 0 1px 0 0 #f4f4f4;
+	border-color: transparent;
+ }
+ 
+
+/********************************
+ * SELECT MEMEBRSHIP PAGE STYLING
+ ********************************/ 
+ #jpro-select-membership .jpro-panel-title {
+	font-size: 16px;
+ }
+
+/********************************
+ * MAGNIFIC POPUP CSS OVERWRITES
+ ********************************/
+ .mfp-zoom-out-cur, 
+ .mfp-zoom-out-cur .mfp-image-holder .mfp-close,
+ .mfp-arrow:hover, 
+ .mfp-arrow:focus {
+	background: transparent !important;
+	background-image: none !important;
+	box-shadow: none !important;
+ }
+ 
+/***********************
+ * JPro Panel
+ ***********************/
+ .jpro-panel {
+	position: relative;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	border-radius: 2px;
+ }
+ 
+ .jpro-panel-heading {
+	position: relative;
+	height: 40px;
+	line-height: 36px;
+	background: #fafafa;
+	color: #666666;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 0 8px;
+	border: 1px solid #e7e7e7;
+	border-top-right-radius: 1px;
+	border-top-left-radius: 1px;
+ }
+ 
+ .jpro-panel-title {
+	padding-left: 6px;
+	margin-top: 0;
+	margin-bottom: 0;
+ }
+ 
+ .jpro-panel-heading + .jpro-panel-body {
+	border-top: 0;
+ }
+ 
+ .jpro-panel-body {
+	position: relative;
+	padding: 15px;
+	border: 1px solid #e7e7e7;
+ }
+ 
+ .jpro-form-group:before, .jpro-form-group:after,
+ .jpro-panel-body:before, .jpro-panel-body:after {
+	clear: both;
+	content: " ";
+	display: table;
+ }
+ 
+ .jpro-form-group {
+	font-size: 14px;
+	margin-bottom: 15px;
+ }
+ 
+ .jpro-form-horizontal .jpro-form-group {
+	margin-left: -11px;
+	margin-right: -11px;
+	width: 100%;
+ }
+ 
+ .jpro-form-horizontal .jpro-control-label,
+ .jpro-control-label {
+	font-size: 14px;
+	font-weight: 600;
+	text-align: right;
+	margin-bottom: 0;
+	padding-top: 10px;
+ }
+ 
+ .jpro-form-control {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	height: 39px !important;
+	padding: 9px 12px !important;
+	line-height: 1.5 !important;
+	color: #555555;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #dddddd;
+	border-radius: 0px;
+	-webkit-transition: border-color ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s;
+	transition: border-color ease-in-out .15s;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+ }
+ 
+ .jpro-form-control:focus {
+	border-color: #3bafda;
+	outline: 0;
+ }
+ 
+ .jpro-panel .fa-question-circle {
+	color: #444;
+	-webkit-transition: ease-in-out .10s;
+	-o-transition: ease-in-out .10s;
+	transition: ease-in-out .10s;
+ }
+ 
+ .jpro-panel .fa-question-circle:hover {
+	color: #75a5e4;
+ }
+ 
+ .jpro-panel .tooltip {
+	position: absolute;
+	z-index: 1070;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.4;
+	visibility: visible;
+	filter: alpha(opacity=0);
+	opacity: 0;
+ }
+
+ .jpro-panel .tooltip.in {
+	filter: alpha(opacity=90);
+	opacity: .9;
+ }
+
+ .jpro-panel .tooltip.top {
+	padding: 5px 0;
+	margin-top: -3px;
+ }
+ 
+ .jpro-panel .tooltip-inner {
+	max-width: 200px;
+	padding: 3px 8px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+	border-radius: 4px;
+ }
+ 
+ .jpro-panel .tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+ }
+ 
+ .jpro-panel .tooltip.top .tooltip-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px 5px 0;
+	border-top-color: #000;
+ }
+ 
+ .jpro-table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 0;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+ }
+ .jpro-table > caption + thead > tr:first-child > th, 
+ .jpro-table > colgroup + thead > tr:first-child > th, 
+ .jpro-table > thead:first-child > tr:first-child > th, 
+ .jpro-table > caption + thead > tr:first-child > td, 
+ .jpro-table > colgroup + thead > tr:first-child > td, 
+ .jpro-table > thead:first-child > tr:first-child > td {
+	font-size: 14px;
+	text-align: center;
+	border-top: 0;
+ }
+ 
+ .jpro-table > thead > tr > td.jpro-primary, 
+ .jpro-table > tbody > tr > td.jpro-primary, 
+ .jpro-table > tfoot > tr > td.jpro-primary, 
+ .jpro-table > thead > tr > th.jpro-primary, 
+ .jpro-table > tbody > tr > th.jpro-primary, 
+ .jpro-table > tfoot > tr > th.jpro-primary, 
+ .jpro-table > thead > tr.jpro-primary > td, 
+ .jpro-table > tbody > tr.jpro-primary > td, 
+ .jpro-table > tfoot > tr.jpro-primary > td, 
+ .jpro-table > thead > tr.jpro-primary > th, 
+ .table > tbody > tr.jpro-primary > th, 
+ .jpro-table > tfoot > tr.jpro-primary > th {
+	color: #1f57a1;
+	border-color: #97bbeb;
+	background-color: #caddf5;
+ }
+ 
+ .jpro-table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #eeeeee;
+ }
+ 
+ .jpro-table > thead > tr > th, 
+ .jpro-table > tbody > tr > th, 
+ .jpro-table > tfoot > tr > th, 
+ .jpro-table > thead > tr > td, 
+ .jpro-table > tbody > tr > td, 
+ .jpro-table > tfoot > tr > td {
+	padding: 9px;
+	line-height: 1.5;
+	vertical-align: middle;
+	border-top: 1px solid #eeeeee;
+ }
+ 
+ .jpro-table tbody > tr > td {
+	font-size: 14px;
+ }
+ 
+ .jpro-table tbody > tr:first-child > td {
+	border-top: 0;
+ }
+ 
+ .jpro-table tbody > tr > td {
+	text-align: center;
+ }
+ 
+ /* #jpro-step-2 */
+ #jpro-step-2 .jpro-form-group {
+	
+ }
+ 
+/*********************
+ * Widgets
+ *********************/
+ .widget.widget_jp_widget_search_cars .jpro-panel-title,
+ .widget.widget_jp_widget_my_profile .jpro-panel-title  {
+	font-family: 'PT Sans', sans-serif, Arial,sans-serif;
+	font-size: 16px;
+ }
+ 
+ .widget.widget_jp_widget_my_profile ul li {
+	line-height: 2;
+	list-style: none;
+	border-bottom: 1px dashed #d7d7d7;
+ }
+ 
+ .widget.widget_jp_widget_search_cars a,
+ .widget.widget_jp_widget_my_profile a {
+	color: #666;
+ }

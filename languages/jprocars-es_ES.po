@@ -1,0 +1,1891 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JPro Cars\n"
+"POT-Creation-Date: 2017-02-06 22:29+0100\n"
+"PO-Revision-Date: 2017-02-06 22:29+0100\n"
+"Last-Translator: Jaroslav Svetlik <kdonet@gmail.com>\n"
+"Language-Team: Jaroslav Svetlik <kdonet@gmail.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: classes\n"
+"X-Poedit-SearchPath-3: templates\n"
+"X-Poedit-SearchPath-4: templates/parts\n"
+"X-Poedit-SearchPath-5: includes/backend\n"
+"X-Poedit-SearchPath-6: includes/gateways\n"
+"X-Poedit-SearchPath-7: includes/global\n"
+"X-Poedit-SearchPath-8: includes/widgets\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: classes/class.jp-cars.php:761
+msgid "fixed"
+msgstr ""
+
+#: classes/class.jp-cars.php:762
+msgid "automatic"
+msgstr "automático"
+
+#: classes/class.jp-cars.php:763
+msgid "electric"
+msgstr "eléctrico"
+
+#: classes/class.jp-cars.php:764
+msgid "diesel"
+msgstr "diésel"
+
+#: classes/class.jp-cars.php:765
+msgid "gasoline"
+msgstr "gasolina"
+
+#: classes/class.jp-cars.php:766
+msgid "hybrid"
+msgstr "híbrido"
+
+#: classes/class.jp-cars.php:767
+msgid "semi-automatic"
+msgstr "semi-automático"
+
+#: classes/class.jp-settings.php:165
+msgid "Operation failed."
+msgstr "La operación falló."
+
+#: includes/backend/currencies.php:77 includes/backend/currencies.php:132
+msgid "Edit Currency"
+msgstr ""
+
+#: includes/backend/currencies.php:79
+msgid "New Currency"
+msgstr ""
+
+#: includes/backend/currencies.php:101 includes/backend/meta_boxes.php:178
+#: includes/backend/transactions_history.php:38
+#: templates/parts/add_classified.php:748
+#: templates/parts/edit_classified.php:641
+msgid "Currency"
+msgstr "Moneda"
+
+#: includes/backend/currencies.php:117
+msgid "Currency Position"
+msgstr ""
+
+#: includes/backend/currencies.php:121 includes/backend/currencies.php:176
+#: includes/backend/meta_boxes.php:127 templates/parts/add_classified.php:643
+#: templates/parts/edit_classified.php:549
+msgid "Left"
+msgstr "Izquierda"
+
+#: includes/backend/currencies.php:122 includes/backend/currencies.php:180
+#: includes/backend/meta_boxes.php:128 templates/parts/add_classified.php:644
+#: templates/parts/edit_classified.php:550
+msgid "Right"
+msgstr "Derecha"
+
+#: includes/backend/currencies.php:123 includes/backend/currencies.php:184
+msgid "Left with space"
+msgstr ""
+
+#: includes/backend/currencies.php:124 includes/backend/currencies.php:188
+msgid "Right with space"
+msgstr ""
+
+#: includes/backend/currencies.php:132
+msgid "Add Currency"
+msgstr ""
+
+#: includes/backend/currencies.php:146 includes/functions_backend.php:216
+msgid "Currencies"
+msgstr "Monedas"
+
+#: includes/backend/currencies.php:148 includes/backend/gateways.php:192
+#: includes/backend/membership.php:301
+msgid "Add New"
+msgstr "Agregar Nuevo"
+
+#: includes/backend/currencies.php:155
+msgid "Name"
+msgstr ""
+
+#: includes/backend/currencies.php:156
+msgid "ISO"
+msgstr ""
+
+#: includes/backend/currencies.php:157
+msgid "Symbol"
+msgstr ""
+
+#: includes/backend/currencies.php:158
+msgid "Symbol Position"
+msgstr ""
+
+#: includes/backend/currencies.php:159
+msgid "Actions"
+msgstr ""
+
+#: includes/backend/currencies.php:195 includes/backend/gateways.php:234
+#: includes/backend/members.php:122 includes/backend/membership.php:383
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/backend/currencies.php:196 includes/backend/gateways.php:235
+#: includes/backend/membership.php:384
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/backend/currencies.php:202
+msgid "Please add currency."
+msgstr ""
+
+#: includes/backend/email_templates.php:22
+#: templates/parts/add_classified.php:460
+#: templates/parts/edit_classified.php:369
+msgid "Failed security check!"
+msgstr "Control de seguridad Error!"
+
+#: includes/backend/email_templates.php:33 includes/functions_backend.php:225
+msgid "Email Templates"
+msgstr "Plantillas de correo electrónico"
+
+#: includes/backend/email_templates.php:43
+msgid "Membership package purchase successful - Template"
+msgstr "Membresía paquete de compra con éxito - Plantilla"
+
+#: includes/backend/email_templates.php:50
+#: includes/backend/email_templates.php:78
+msgid "You can use next tags which will be replaced with individual user info"
+msgstr ""
+"Puede utilizar próximos etiquetas que serán reemplazadas con la información "
+"de usuario individual"
+
+#: includes/backend/email_templates.php:55
+#: includes/backend/email_templates.php:83
+msgid "Subject"
+msgstr "Sujeto"
+
+#: includes/backend/email_templates.php:57
+#: includes/backend/email_templates.php:85
+msgid "Email subject"
+msgstr "Asunto del correo electrónico"
+
+#: includes/backend/email_templates.php:62
+#: includes/backend/email_templates.php:90
+msgid "Message"
+msgstr "Mensaje"
+
+#: includes/backend/email_templates.php:71
+msgid "Classified submitted successfuly - Template"
+msgstr "Clasificada transmitida exitosamente - Plantilla"
+
+#: includes/backend/gateways.php:73
+msgid "You have already added all available payment gateways!"
+msgstr "Ya hemos agregado todas las pasarelas de pago disponibles!"
+
+#: includes/backend/gateways.php:85
+msgid "New Payment Gateway"
+msgstr "Nuevo portal de pago"
+
+#: includes/backend/gateways.php:94 includes/backend/gateways.php:199
+#: templates/parts/add_classified.php:822
+#: templates/parts/edit_classified.php:728
+msgid "Title"
+msgstr "Título"
+
+#: includes/backend/gateways.php:103
+msgid "Select gateway"
+msgstr "Seleccione la puerta de enlace"
+
+#: includes/backend/gateways.php:107
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/backend/gateways.php:114 includes/backend/gateways.php:201
+#: templates/single-car-classifieds.php:307
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/backend/gateways.php:142
+msgid "Sandbox"
+msgstr "Arenero"
+
+#: includes/backend/gateways.php:146
+msgid "disable"
+msgstr "inhabilitar"
+
+#: includes/backend/gateways.php:147
+msgid "enable"
+msgstr "permitir"
+
+#: includes/backend/gateways.php:190 includes/functions_backend.php:211
+msgid "Payment Gateways"
+msgstr "Pasarelas de Pago"
+
+#: includes/backend/gateways.php:200
+#: includes/backend/transactions_history.php:36
+#: templates/parts/my_transactions.php:27
+msgid "Gateway"
+msgstr "Entrada"
+
+#: includes/backend/gateways.php:206
+msgid "Sandbox Mode"
+msgstr "Modo Sandbox"
+
+#: includes/backend/gateways.php:211 includes/backend/members.php:97
+#: includes/backend/membership.php:315
+msgid "Action"
+msgstr "Acción"
+
+#: includes/backend/gateways.php:242
+msgid "Add new payment gateway."
+msgstr "Añadir nueva pasarela de pago."
+
+#: includes/backend/license.php:23
+msgid "Product License"
+msgstr "Licencia del Producto"
+
+#: includes/backend/license.php:33
+msgid "Envato username"
+msgstr "Envato nombre de usuario"
+
+#: includes/backend/license.php:38
+msgid "Your Envato username."
+msgstr "Su nombre de usuario Envato."
+
+#: includes/backend/license.php:45
+msgid "Envato API key"
+msgstr "Clave de API Envato"
+
+#: includes/backend/license.php:50
+msgid ""
+"You can find API key by visiting your Envato Account page, then clicking the "
+"My Settings tab. At the bottom of the page you'll find your account's API "
+"key. Need help?"
+msgstr ""
+"Usted puede encontrar la clave API visitando su página Cuenta Envato, a "
+"continuación, en la pestaña Mi configuración. En la parte inferior de la "
+"página encontrará clave de API de su cuenta. Necesita ayuda?"
+
+#: includes/backend/license.php:57
+msgid "JPro Cars license"
+msgstr "Licencia JPro Coches"
+
+#: includes/backend/license.php:62
+msgid ""
+"Please enter your CodeCanyon JPro Cars license key, you can find your key by "
+"following the instructions on this page. License key looks similar to this: "
+"bjg759fk-kvta-6584-94h6-75jg8vblatftq."
+msgstr ""
+"Introduzca su clave de licencia CodeCanyon JPro Coches, puede encontrar la "
+"clave siguiendo las instrucciones de esta página. Clave de licencia similar "
+"a ésta"
+
+#: includes/backend/members.php:75 includes/functions_backend.php:73
+#: includes/functions_backend.php:74
+msgid "Members"
+msgstr ""
+
+#: includes/backend/members.php:75 includes/backend/members.php:268
+msgid "Add Membership to User"
+msgstr ""
+
+#: includes/backend/members.php:83
+msgid "All Members with JPro Cars Membership"
+msgstr ""
+
+#: includes/backend/members.php:89 includes/backend/transactions_history.php:31
+msgid "User ID"
+msgstr "ID de Usuario"
+
+#: includes/backend/members.php:90 includes/backend/transactions_history.php:32
+msgid "Username"
+msgstr "Usuario"
+
+#: includes/backend/members.php:91 templates/parts/my_membership.php:23
+msgid "Membership"
+msgstr "Membresía"
+
+#: includes/backend/members.php:92
+msgid "Membership Purchase"
+msgstr ""
+
+#: includes/backend/members.php:93
+msgid "Membership Expire"
+msgstr ""
+
+#: includes/backend/members.php:94
+msgid "Classifieds Limit"
+msgstr ""
+
+#: includes/backend/members.php:95
+msgid "Classifieds Image Limit"
+msgstr ""
+
+#: includes/backend/members.php:96
+msgid "Classifieds Expire"
+msgstr ""
+
+#: includes/backend/members.php:118 includes/backend/membership.php:344
+#: includes/backend/membership.php:376 includes/backend/membership.php:379
+#: templates/parts/select_membership.php:147
+msgid "after"
+msgstr "después"
+
+#: includes/backend/members.php:118
+msgid "day/s"
+msgstr ""
+
+#: includes/backend/members.php:123
+msgid "Remove Membership"
+msgstr ""
+
+#: includes/backend/members.php:129
+msgid "No users with JPro Cars membership!"
+msgstr ""
+
+#: includes/backend/members.php:144
+msgid "Edit Membership Package"
+msgstr ""
+
+#: includes/backend/members.php:150 includes/backend/membership.php:127
+#: includes/backend/membership.php:308
+msgid "Package title"
+msgstr "Título paquete"
+
+#: includes/backend/members.php:156
+msgid "Package purchase date"
+msgstr ""
+
+#: includes/backend/members.php:160
+msgid ""
+"Date must be formated only in next order: <strong>Year-Month-Day</strong>, "
+"if any other order added, the membership package won't work properly."
+msgstr ""
+
+#: includes/backend/members.php:165 includes/backend/membership.php:172
+msgid "Package expiration"
+msgstr "Paquete de caducidad"
+
+#: includes/backend/members.php:169
+msgid ""
+"Date must be formated only in next order: <strong>Year-Month-Day</strong> or "
+"<strong>never</strong>, if any other order added, the membership package "
+"won't work properly."
+msgstr ""
+
+#: includes/backend/members.php:174 includes/backend/membership.php:201
+#: templates/parts/select_membership.php:121
+msgid "Classifieds posting limit"
+msgstr "Límite Clasificados puesto"
+
+#: includes/backend/members.php:200 includes/backend/membership.php:230
+#: templates/parts/select_membership.php:157
+msgid "Classifieds image upload limit"
+msgstr "Clasificados límite de carga de imágenes"
+
+#: includes/backend/members.php:226 includes/backend/membership.php:258
+msgid "Classifieds will expire after"
+msgstr "Clasificados expirarán después"
+
+#: includes/backend/members.php:255
+msgid "Update Membership"
+msgstr ""
+
+#: includes/backend/members.php:274
+msgid "Select user"
+msgstr ""
+
+#: includes/backend/members.php:286
+msgid "Select membership"
+msgstr ""
+
+#: includes/backend/members.php:292
+msgid "No membership packages!"
+msgstr ""
+
+#: includes/backend/members.php:299
+msgid "Add Membership"
+msgstr ""
+
+#: includes/backend/membership.php:117
+msgid "New Membership Package"
+msgstr "Nuevo Paquete de Membresía"
+
+#: includes/backend/membership.php:130
+msgid "eg: Gold Membership"
+msgstr "por ejemplo: Membresía de Oro"
+
+#: includes/backend/membership.php:136 includes/backend/membership.php:309
+msgid "Package type"
+msgstr "Tipo de bulto"
+
+#: includes/backend/membership.php:140
+msgid "Free"
+msgstr "Gratuito"
+
+#: includes/backend/membership.php:141
+msgid "Paid"
+msgstr "Pagado"
+
+#: includes/backend/membership.php:148 includes/backend/membership.php:310
+msgid "Package price"
+msgstr "Precio del paquete"
+
+#: includes/backend/membership.php:158
+msgid "Package currency"
+msgstr "Moneda de paquete"
+
+#: includes/backend/membership.php:162
+msgid "EUR"
+msgstr "EUR"
+
+#: includes/backend/membership.php:163
+msgid "GBP"
+msgstr "GBP"
+
+#: includes/backend/membership.php:164
+msgid "JPY"
+msgstr "JPY"
+
+#: includes/backend/membership.php:165
+msgid "USD"
+msgstr "USD"
+
+#: includes/backend/membership.php:299 includes/functions_backend.php:205
+msgid "Membership Packages"
+msgstr "Paquetes de Membresía"
+
+#: includes/backend/membership.php:311
+msgid "Package expire"
+msgstr "Paquete expiran"
+
+#: includes/backend/membership.php:312
+msgid "Classifieds limit"
+msgstr "Clasificados límite"
+
+#: includes/backend/membership.php:313
+msgid "Classifieds image limit"
+msgstr "Límite imagen Clasificados"
+
+#: includes/backend/membership.php:314 templates/parts/my_membership.php:81
+msgid "Classifieds expire"
+msgstr "Clasificados expiran"
+
+#: includes/backend/membership.php:329
+#: templates/parts/select_membership.php:117
+msgid "free"
+msgstr "Cuota"
+
+#: includes/backend/membership.php:341 includes/backend/membership.php:372
+msgid "never"
+msgstr "nunca"
+
+#: includes/backend/membership.php:344
+msgid "months"
+msgstr "meses"
+
+#: includes/backend/membership.php:350 includes/backend/membership.php:359
+msgid "unlimited"
+msgstr "Ilimitado"
+
+#: includes/backend/membership.php:353 includes/backend/user_profiles.php:39
+msgid "posts"
+msgstr "entradas"
+
+#: includes/backend/membership.php:363
+msgid "image"
+msgstr "Imagen"
+
+#: includes/backend/membership.php:366
+msgid "images"
+msgstr "imágenes"
+
+#: includes/backend/membership.php:376
+msgid "day"
+msgstr "día"
+
+#: includes/backend/membership.php:379 includes/backend/user_profiles.php:43
+msgid "days"
+msgstr "días"
+
+#: includes/backend/membership.php:391
+msgid "Add new membership package."
+msgstr "Añadir un nuevo paquete de membresía."
+
+#: includes/backend/meta_boxes.php:19 templates/parts/add_classified.php:521
+#: templates/parts/edit_classified.php:428
+#: templates/single-car-classifieds.php:97
+msgid "Car Details"
+msgstr "Detalles del Coche"
+
+#: includes/backend/meta_boxes.php:20
+msgid "Car Photos"
+msgstr "Fotos de Coches"
+
+#: includes/backend/meta_boxes.php:47
+msgid "Car version"
+msgstr "Versión del Coche"
+
+#: includes/backend/meta_boxes.php:56
+msgid "Car made year"
+msgstr "Coche hecho años"
+
+#: includes/backend/meta_boxes.php:60 includes/backend/meta_boxes.php:72
+#: includes/backend/meta_boxes.php:86 includes/backend/meta_boxes.php:98
+#: includes/backend/meta_boxes.php:113 includes/backend/meta_boxes.php:126
+#: includes/backend/meta_boxes.php:296 templates/parts/add_classified.php:493
+#: templates/parts/add_classified.php:532
+#: templates/parts/add_classified.php:545
+#: templates/parts/edit_classified.php:402
+#: templates/parts/edit_classified.php:439
+#: templates/parts/edit_classified.php:452
+msgid "-- Please Select --"
+msgstr "- Seleccione -"
+
+#: includes/backend/meta_boxes.php:68
+msgid "Car transmission"
+msgstr "Transmisión de coche"
+
+#: includes/backend/meta_boxes.php:73 templates/parts/add_classified.php:629
+#: templates/parts/edit_classified.php:535
+msgid "Automatic"
+msgstr "Automático"
+
+#: includes/backend/meta_boxes.php:74 templates/parts/add_classified.php:630
+#: templates/parts/edit_classified.php:536
+msgid "Manual"
+msgstr "Manual"
+
+#: includes/backend/meta_boxes.php:75 templates/parts/add_classified.php:631
+#: templates/parts/edit_classified.php:537
+msgid "Semi-Automatic"
+msgstr "Semi-Automático"
+
+#: includes/backend/meta_boxes.php:82
+msgid "Car doors"
+msgstr "Puertas del vehículo"
+
+#: includes/backend/meta_boxes.php:94
+msgid "Car fuel"
+msgstr "Combustible del coche"
+
+#: includes/backend/meta_boxes.php:99 templates/parts/add_classified.php:592
+#: templates/parts/edit_classified.php:498
+msgid "Diesel"
+msgstr "Diésel"
+
+#: includes/backend/meta_boxes.php:100 templates/parts/add_classified.php:593
+#: templates/parts/edit_classified.php:499
+msgid "Electric"
+msgstr "Eléctrico"
+
+#: includes/backend/meta_boxes.php:101 templates/parts/add_classified.php:594
+#: templates/parts/edit_classified.php:500
+msgid "Gasoline"
+msgstr "Gasolina"
+
+#: includes/backend/meta_boxes.php:102 templates/parts/add_classified.php:595
+#: templates/parts/edit_classified.php:501
+msgid "Hybrid"
+msgstr "Híbrido"
+
+#: includes/backend/meta_boxes.php:109
+msgid "Car condition"
+msgstr "Condición del auto"
+
+#: includes/backend/meta_boxes.php:114 shortcodes/class-jpro_cars.php:299
+#: templates/parts/add_classified.php:691
+#: templates/parts/edit_classified.php:597
+msgid "New"
+msgstr "Nuevo"
+
+#: includes/backend/meta_boxes.php:115 shortcodes/class-jpro_cars.php:297
+#: templates/parts/add_classified.php:692
+#: templates/parts/edit_classified.php:598
+msgid "Used"
+msgstr "Usado"
+
+#: includes/backend/meta_boxes.php:122
+msgid "Car drive"
+msgstr "En coche"
+
+#: includes/backend/meta_boxes.php:135
+msgid "Car color"
+msgstr "Color del coche"
+
+#: includes/backend/meta_boxes.php:144
+msgid "Car price"
+msgstr "Precio del coche"
+
+#: includes/backend/meta_boxes.php:154 templates/parts/add_classified.php:722
+#: templates/parts/edit_classified.php:628
+msgid "Price Type"
+msgstr ""
+
+#: includes/backend/meta_boxes.php:158 templates/parts/add_classified.php:725
+#: templates/parts/edit_classified.php:631
+msgid "Fixed"
+msgstr ""
+
+#: includes/backend/meta_boxes.php:159 templates/parts/add_classified.php:726
+#: templates/parts/edit_classified.php:632
+msgid "Negotiable"
+msgstr ""
+
+#: includes/backend/meta_boxes.php:166 templates/parts/add_classified.php:735
+#: templates/parts/edit_classified.php:662
+msgid "Warranty"
+msgstr ""
+
+#: includes/backend/meta_boxes.php:170 templates/parts/add_classified.php:738
+#: templates/parts/edit_classified.php:665
+msgid "No"
+msgstr ""
+
+#: includes/backend/meta_boxes.php:171 templates/parts/add_classified.php:739
+#: templates/parts/edit_classified.php:666
+msgid "Yes"
+msgstr ""
+
+#: includes/backend/meta_boxes.php:198
+msgid "Car mileage"
+msgstr "Kilometraje del auto"
+
+#: includes/backend/meta_boxes.php:208 includes/backend/validation.php:156
+msgid "Car VIN"
+msgstr "Coche VIN"
+
+#: includes/backend/meta_boxes.php:217
+msgid "Car engine, cm3"
+msgstr "Motor de coche, cm3"
+
+#: includes/backend/meta_boxes.php:227
+msgid "Car horsepower, hp"
+msgstr "Caballos de coche, caballos de fuerza"
+
+#: includes/backend/meta_boxes.php:237
+msgid "Car seats"
+msgstr "Sillas de coche"
+
+#: includes/backend/meta_boxes.php:247
+msgid "Seller first name"
+msgstr "Nombre Vendedor"
+
+#: includes/backend/meta_boxes.php:256
+msgid "Seller last name"
+msgstr "Apellido Vendedor"
+
+#: includes/backend/meta_boxes.php:265
+msgid "Seller email"
+msgstr "Correo Electrónico del Vendedor"
+
+#: includes/backend/meta_boxes.php:274
+msgid "Seller phone"
+msgstr "Teléfono del Vendedor"
+
+#: includes/backend/meta_boxes.php:283
+msgid "Seller company"
+msgstr "Empresa Vendedor"
+
+#: includes/backend/meta_boxes.php:292
+msgid "Seller country"
+msgstr "País del Vendedor"
+
+#: includes/backend/meta_boxes.php:304
+msgid "Seller state"
+msgstr ""
+
+#: includes/backend/meta_boxes.php:313
+msgid "Seller town"
+msgstr "Ciudad de vendedor"
+
+#: includes/backend/meta_boxes.php:342
+msgid "Upload Car Images"
+msgstr "Imágenes Subir Coches"
+
+#: includes/backend/meta_boxes.php:359 templates/parts/add_classified.php:865
+#: templates/parts/edit_classified.php:771
+msgid "Recommended image sizes: 800x600"
+msgstr "Los tamaños de imagen recomendadas: 800x600"
+
+#: includes/backend/meta_boxes.php:436
+msgid "JPro Cars Links"
+msgstr "JPro Coches Links"
+
+#: includes/backend/meta_boxes.php:460
+#: includes/widgets/widget_my-profile.php:72
+msgid "Add Classified"
+msgstr "Añadir Clasificado"
+
+#: includes/backend/meta_boxes.php:469
+#: includes/widgets/widget_my-profile.php:62
+#: templates/parts/add_classified.php:423
+#: templates/parts/edit_classified.php:358
+msgid "My Classifieds"
+msgstr "Mis Clasificados"
+
+#: includes/backend/meta_boxes.php:478
+#: includes/widgets/widget_my-profile.php:63
+#: templates/parts/my_membership.php:12
+#: templates/parts/select_membership.php:55
+msgid "My Membership"
+msgstr "Mi Membresía"
+
+#: includes/backend/meta_boxes.php:487
+#: includes/widgets/widget_my-profile.php:64
+#: templates/parts/my_transactions.php:8
+msgid "My Transactions"
+msgstr "Mis Transacciones"
+
+#: includes/backend/meta_boxes.php:496
+#: includes/widgets/widget_my-profile.php:65
+msgid "Change Membership"
+msgstr ""
+
+#: includes/backend/post_taxonomy_type.php:1281
+#: includes/backend/post_taxonomy_type.php:1282
+#: includes/backend/post_taxonomy_type.php:1283
+#: includes/backend/post_taxonomy_type.php:1284
+msgid "JPro Cars"
+msgstr "JPro Coches"
+
+#: includes/backend/post_taxonomy_type.php:1285
+#: includes/backend/post_taxonomy_type.php:1286
+#: includes/backend/post_taxonomy_type.php:1287
+msgid "New Car"
+msgstr "Nuevo Coche "
+
+#: includes/backend/post_taxonomy_type.php:1288
+#: shortcodes/class-jpro_cars.php:181
+msgid "Edit Car"
+msgstr "Editar Coche"
+
+#: includes/backend/post_taxonomy_type.php:1289
+msgid "View Car"
+msgstr "Ver Coche"
+
+#: includes/backend/post_taxonomy_type.php:1290
+msgid "All Cars"
+msgstr "Todos los Coches"
+
+#: includes/backend/post_taxonomy_type.php:1291
+msgid "Search Cars"
+msgstr "Búsqueda Coches"
+
+#: includes/backend/post_taxonomy_type.php:1292
+msgid "Parent Cars:"
+msgstr "Coches de Padres:"
+
+#: includes/backend/post_taxonomy_type.php:1293
+msgid "No cars found."
+msgstr "No hay vehículos encontrados."
+
+#: includes/backend/post_taxonomy_type.php:1294
+msgid "No cars found in Trash."
+msgstr "No hay vehículos encontrados en la basura."
+
+#: includes/backend/post_taxonomy_type.php:1325
+#: templates/parts/add_classified.php:542
+#: templates/parts/edit_classified.php:449
+msgid "Model"
+msgstr "Modelo"
+
+#: includes/backend/post_taxonomy_type.php:1326
+#: includes/backend/post_taxonomy_type.php:1335
+msgid "Models"
+msgstr "Modelos"
+
+#: includes/backend/post_taxonomy_type.php:1327
+msgid "Search Car Models"
+msgstr "Modelos de Coches Buscar"
+
+#: includes/backend/post_taxonomy_type.php:1328
+msgid "All Car Models"
+msgstr "Todos los Modelos de Coches"
+
+#: includes/backend/post_taxonomy_type.php:1329
+msgid "Parent Car Model"
+msgstr "Padres Modelo de Coche"
+
+#: includes/backend/post_taxonomy_type.php:1330
+msgid "Parent Car Model:"
+msgstr "Padres Modelo del Coche:"
+
+#: includes/backend/post_taxonomy_type.php:1331
+msgid "Edit Car Model"
+msgstr "Editar Modelo de Coche"
+
+#: includes/backend/post_taxonomy_type.php:1332
+msgid "Update Car Model"
+msgstr "Actualización del Modelo de Coche"
+
+#: includes/backend/post_taxonomy_type.php:1333
+msgid "Add Car Model"
+msgstr "Añadir Car Model"
+
+#: includes/backend/post_taxonomy_type.php:1334
+msgid "New Car Model Name"
+msgstr "Nombre Nuevo Modelo de Coche"
+
+#: includes/backend/post_taxonomy_type.php:1351
+msgid "Equipment"
+msgstr "Equipo"
+
+#: includes/backend/post_taxonomy_type.php:1352
+#: includes/backend/post_taxonomy_type.php:1361
+msgid "Equipments"
+msgstr "Equipamientos"
+
+#: includes/backend/post_taxonomy_type.php:1353
+msgid "Search Equipment"
+msgstr "Buscar Equipo"
+
+#: includes/backend/post_taxonomy_type.php:1354
+msgid "All Equipments"
+msgstr "Todos los Equipos"
+
+#: includes/backend/post_taxonomy_type.php:1355
+msgid "Parent Equipment"
+msgstr "Equipo de Padres"
+
+#: includes/backend/post_taxonomy_type.php:1356
+msgid "Parent Eqipment:"
+msgstr "Eqipment Padres:"
+
+#: includes/backend/post_taxonomy_type.php:1357
+msgid "Edit Equipment"
+msgstr "Editar Equipos"
+
+#: includes/backend/post_taxonomy_type.php:1358
+msgid "Update Equipment"
+msgstr "Equipo Actualización"
+
+#: includes/backend/post_taxonomy_type.php:1359
+msgid "Add Car Equipment"
+msgstr "Añadir Equipo Coche"
+
+#: includes/backend/post_taxonomy_type.php:1360
+msgid "New Equipment Name"
+msgstr "Equipo Nuevo Nombre"
+
+#: includes/backend/settings.php:34 includes/backend/settings.php:42
+#: includes/functions_backend.php:200
+msgid "General Settings"
+msgstr "Configuración General"
+
+#: includes/backend/settings.php:47
+msgid "Mode"
+msgstr "Modo"
+
+#: includes/backend/settings.php:48
+msgid "Select between car classifieds or car dealer mode."
+msgstr ""
+"Seleccione entre los anuncios de automóviles o el modo de concesionario de "
+"automóviles."
+
+#: includes/backend/settings.php:52 includes/backend/user_profiles.php:19
+msgid "Car Classifieds"
+msgstr "Clasificados de Autos"
+
+#: includes/backend/settings.php:53
+msgid "Car Dealer"
+msgstr "Concesionario de Coches"
+
+#: includes/backend/settings.php:60
+msgid "Car Dealer Page"
+msgstr "Coche Página Dealer"
+
+#: includes/backend/settings.php:60
+msgid "Car Classifieds Page"
+msgstr "Coche Clasificados Página"
+
+#: includes/backend/settings.php:61
+msgid ""
+"Choose page on which you are serving car classifieds service. If you don't "
+"set up this properly there could be problems with plugin operations."
+msgstr ""
+"Elige página en la que usted está sirviendo servicio de coches clasificados. "
+"Si no configura esto correctamente podría haber problemas con las "
+"operaciones del plugin."
+
+#: includes/backend/settings.php:74
+msgid "Cars per page"
+msgstr "Coches por página"
+
+#: includes/backend/settings.php:75
+msgid "Set how many posts will be shown per page."
+msgstr "Establecer la cantidad de mensajes se mostrarán por página."
+
+#: includes/backend/settings.php:89
+msgid "Payment Settings"
+msgstr "Configuración de Pagos"
+
+#: includes/backend/settings.php:94
+msgid "Payment successful page"
+msgstr "Pago página exitosa"
+
+#: includes/backend/settings.php:95
+msgid ""
+"Select page where users will be redirected after successful payment for "
+"membership package."
+msgstr ""
+"Seleccione la página donde los usuarios serán redirigidos después del pago "
+"con éxito para el paquete de membresía."
+
+#: includes/backend/settings.php:108
+msgid "Payment failed"
+msgstr "Error en el pago"
+
+#: includes/backend/settings.php:109
+msgid ""
+"Select page where users will be redirected after unsuccessful payment for "
+"membership package."
+msgstr ""
+"Seleccione la página donde los usuarios serán redirigidos después del pago "
+"sin éxito para el paquete de membresía."
+
+#: includes/backend/styling.php:27
+msgid "Styling"
+msgstr ""
+
+#: includes/backend/styling.php:40
+msgid "Primary Color"
+msgstr ""
+
+#: includes/backend/styling.php:41
+msgid "Set JPro Cars primary color. All main elements will use this color."
+msgstr ""
+
+#: includes/backend/styling.php:51
+msgid "Headings Color"
+msgstr ""
+
+#: includes/backend/styling.php:52
+msgid ""
+"Set color for headings (h1, h2, h3, h4, h5, h6) tags on JPro Cars pages."
+msgstr ""
+
+#: includes/backend/styling.php:62
+msgid "Headings Hover Color"
+msgstr ""
+
+#: includes/backend/styling.php:63
+msgid ""
+"Set color for headings hover (h1, h2, h3, h4, h5, h6) tags on JPro Cars "
+"pages."
+msgstr ""
+
+#: includes/backend/styling.php:73
+msgid "Links Colors"
+msgstr ""
+
+#: includes/backend/styling.php:74
+msgid "Set color for links (<a href>) tags on JPro Cars pages."
+msgstr ""
+
+#: includes/backend/styling.php:84
+msgid "Links Hover Color"
+msgstr ""
+
+#: includes/backend/styling.php:85
+msgid "Set color for links hover (<a href>) tags on JPro Cars pages."
+msgstr ""
+
+#: includes/backend/transactions_history.php:7
+msgid "Transactions History"
+msgstr "Historia Transacciones"
+
+#: includes/backend/transactions_history.php:12
+msgid "All Transactions"
+msgstr "Todas las Transacciones"
+
+#: includes/backend/transactions_history.php:30
+msgid "#ID"
+msgstr "#ID"
+
+#: includes/backend/transactions_history.php:33
+msgid "PayPal Email"
+msgstr "Correo electrónico de PayPal"
+
+#: includes/backend/transactions_history.php:34
+msgid "Package ID"
+msgstr "Paquete ID"
+
+#: includes/backend/transactions_history.php:35
+#: templates/parts/my_transactions.php:26
+msgid "Package Title"
+msgstr "Título Paquete"
+
+#: includes/backend/transactions_history.php:37
+#: templates/parts/my_transactions.php:28
+msgid "Amount"
+msgstr "Cantidad"
+
+#: includes/backend/transactions_history.php:39
+msgid "Purchase Date"
+msgstr "Fecha de Adquisición"
+
+#: includes/backend/transactions_history.php:40
+msgid "Payment Status"
+msgstr "Situación de Pagos"
+
+#: includes/backend/transactions_history.php:62
+msgid "No transactions available yet."
+msgstr "No hay transacciones disponible todavia."
+
+#: includes/backend/user_profiles.php:22
+msgid "Membership:"
+msgstr "Membresía:"
+
+#: includes/backend/user_profiles.php:26
+msgid "Membership type:"
+msgstr "Tipo de membresía:"
+
+#: includes/backend/user_profiles.php:30
+msgid "Membership purchase date:"
+msgstr "Membresía fecha de compra:"
+
+#: includes/backend/user_profiles.php:34
+msgid "Membership expiration date:"
+msgstr "Membresía fecha de caducidad:"
+
+#: includes/backend/user_profiles.php:38
+msgid "Classifieds post limit:"
+msgstr "Clasificados límite post:"
+
+#: includes/backend/user_profiles.php:42
+msgid "Classifieds expiration after:"
+msgstr "Clasificados de caducidad después de:"
+
+#: includes/backend/validation.php:70
+msgid "Validation Settings"
+msgstr ""
+
+#: includes/backend/validation.php:78
+msgid "Input Field"
+msgstr ""
+
+#: includes/backend/validation.php:79
+msgid "Required"
+msgstr ""
+
+#: includes/backend/validation.php:80
+msgid "Show"
+msgstr ""
+
+#: includes/backend/validation.php:86
+msgid "Car Make"
+msgstr ""
+
+#: includes/backend/validation.php:91
+msgid "Car Model"
+msgstr ""
+
+#: includes/backend/validation.php:96
+msgid "Car Version"
+msgstr ""
+
+#: includes/backend/validation.php:101
+msgid "Car Year"
+msgstr ""
+
+#: includes/backend/validation.php:106
+msgid "Car Mileage"
+msgstr "Kilometraje del Auto"
+
+#: includes/backend/validation.php:111
+msgid "Car Fuel"
+msgstr ""
+
+#: includes/backend/validation.php:116
+msgid "Car Engine"
+msgstr ""
+
+#: includes/backend/validation.php:121
+msgid "Car Horsepower"
+msgstr ""
+
+#: includes/backend/validation.php:126
+msgid "Car Transmission"
+msgstr ""
+
+#: includes/backend/validation.php:131
+msgid "Car Drive"
+msgstr ""
+
+#: includes/backend/validation.php:136
+msgid "Car Doors"
+msgstr ""
+
+#: includes/backend/validation.php:141
+msgid "Car Seats"
+msgstr ""
+
+#: includes/backend/validation.php:146 templates/parts/add_classified.php:678
+#: templates/parts/edit_classified.php:584
+msgid "Car Color"
+msgstr "Color del Coche"
+
+#: includes/backend/validation.php:151
+msgid "Car Condition"
+msgstr ""
+
+#: includes/backend/validation.php:161
+msgid "Car Price"
+msgstr "Precio del Auto"
+
+#: includes/backend/validation.php:166
+msgid "Car Price Type"
+msgstr ""
+
+#: includes/backend/validation.php:171
+msgid "Car Warranty"
+msgstr ""
+
+#: includes/backend/validation.php:176
+msgid "Car Currency"
+msgstr ""
+
+#: includes/backend/validation.php:181
+msgid "Seller First Name"
+msgstr ""
+
+#: includes/backend/validation.php:186
+msgid "Seller Last Name"
+msgstr ""
+
+#: includes/backend/validation.php:191
+msgid "Seller Company"
+msgstr ""
+
+#: includes/backend/validation.php:196
+msgid "Seller Email"
+msgstr ""
+
+#: includes/backend/validation.php:201
+msgid "Seller Phone"
+msgstr ""
+
+#: includes/backend/validation.php:206
+msgid "Seller Country"
+msgstr ""
+
+#: includes/backend/validation.php:211
+msgid "Seller State"
+msgstr ""
+
+#: includes/backend/validation.php:216
+msgid "Seller Town"
+msgstr ""
+
+#: includes/backend/validation.php:221
+msgid "Save"
+msgstr ""
+
+#: includes/functions_backend.php:82 includes/functions_backend.php:83
+msgid "Transactions"
+msgstr "Transacciones"
+
+#: includes/functions_backend.php:92 includes/functions_backend.php:93
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/functions_backend.php:101 includes/functions_backend.php:102
+msgid "Upgrade"
+msgstr ""
+
+#: includes/functions_backend.php:195
+msgid "JPro Cars Settings"
+msgstr "JPro Coches Ajustes"
+
+#: includes/functions_backend.php:220
+msgid "Validation"
+msgstr ""
+
+#: includes/functions_frontend.php:149
+msgid "NoName"
+msgstr "NoName"
+
+#: includes/functions_frontend.php:153
+msgid "NoLastName"
+msgstr "NoLastName"
+
+#: includes/gateways/paypal.php:26
+msgid "Redirecting to PayPal..."
+msgstr "Redirigiendo a PayPal..."
+
+#: includes/gateways/paypal.php:61
+msgid "PayPal - The safer, easier way to pay online"
+msgstr "PayPal - La forma rápida y segura de pagar en línea"
+
+#: includes/global/media_uploader.php:42
+msgid "Allowed Files"
+msgstr "Archivos Permitidos"
+
+#: includes/widgets/widget_my-profile.php:15
+msgid "JPro Cars: My Profile"
+msgstr "JPro Coches: Mi Perfil"
+
+#: includes/widgets/widget_my-profile.php:15
+msgid "Car classifieds user important links."
+msgstr "Coches clásicos de usuario vínculos importantes."
+
+#: includes/widgets/widget_my-profile.php:61
+msgid "All Classifieds"
+msgstr ""
+
+#: includes/widgets/widget_my-profile.php:80
+msgid "Please"
+msgstr "Por favor"
+
+#: includes/widgets/widget_my-profile.php:81
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: includes/widgets/widget_my-profile.php:81
+#: templates/parts/add_classified.php:29
+msgid "login"
+msgstr "inicio de sesión"
+
+#: includes/widgets/widget_my-profile.php:82
+#: templates/parts/add_classified.php:31
+msgid "or"
+msgstr "o"
+
+#: includes/widgets/widget_my-profile.php:83
+msgid "Register"
+msgstr "Regístrate"
+
+#: includes/widgets/widget_my-profile.php:83
+#: templates/parts/add_classified.php:30
+msgid "register"
+msgstr "enregistrar"
+
+#: includes/widgets/widget_my-profile.php:84
+#: templates/parts/add_classified.php:31
+msgid "first."
+msgstr "primero."
+
+#: includes/widgets/widget_my-profile.php:106
+msgid "My Profile"
+msgstr "Mi Perfil"
+
+#: includes/widgets/widget_my-profile.php:109
+msgid "Title:"
+msgstr "Titulo:"
+
+#: shortcodes/class-jpro_carousel.php:139
+msgid "warranty"
+msgstr ""
+
+#: shortcodes/class-jpro_cars.php:64
+msgid "Car deleted successfuly!"
+msgstr ""
+
+#: shortcodes/class-jpro_cars.php:75
+msgid "Found Cars"
+msgstr "Coches encontrados"
+
+#: shortcodes/class-jpro_cars.php:158
+msgid "Date:"
+msgstr "Fecha:"
+
+#: shortcodes/class-jpro_cars.php:182
+msgid "Delete Car"
+msgstr ""
+
+#: shortcodes/class-jpro_cars.php:245 templates/single-car-classifieds.php:170
+msgid "Fuel:"
+msgstr "Carburante:"
+
+#: shortcodes/class-jpro_cars.php:255 templates/single-car-classifieds.php:146
+msgid "Mileage:"
+msgstr "Kilómetros:"
+
+#: shortcodes/class-jpro_cars.php:265
+msgid "Year:"
+msgstr "Año:"
+
+#: shortcodes/class-jpro_cars.php:275
+msgid "Location:"
+msgstr "Ubicación:"
+
+#: shortcodes/class-jpro_cars.php:307
+msgid "Left drive"
+msgstr ""
+
+#: shortcodes/class-jpro_cars.php:309
+msgid "Right drive"
+msgstr ""
+
+#: shortcodes/class-jpro_cars.php:315
+msgid "cm3"
+msgstr "cm3"
+
+#: shortcodes/class-jpro_cars.php:319
+msgid "hp"
+msgstr "hp"
+
+#: shortcodes/class-jpro_cars.php:323
+msgid "doors"
+msgstr "puertas"
+
+#: shortcodes/class-jpro_cars.php:334
+msgid "Sorry but there are no cars for display at the moment !"
+msgstr ""
+
+#: templates/parts/add_classified.php:31
+msgid "You must"
+msgstr "Usted debe"
+
+#: templates/parts/add_classified.php:37
+msgid "You must buy membership first!"
+msgstr "Usted tiene que comprar la membresía primero!"
+
+#: templates/parts/add_classified.php:43
+msgid ""
+"Your membership package has expired. Please choose new membership package!"
+msgstr ""
+"Su paquete de membresía ha expirado. Por favor, elija nuevo paquete de "
+"membresía!"
+
+#: templates/parts/add_classified.php:50
+msgid ""
+"You have exceeded your classifieds post limit! You can purchase new "
+"membership package."
+msgstr ""
+"Has superado el límite posterior clasificados! Usted puede comprar nuevo "
+"paquete de membresía."
+
+#: templates/parts/add_classified.php:280
+#: templates/parts/add_classified.php:460
+#: templates/parts/edit_classified.php:240
+#: templates/parts/edit_classified.php:369
+msgid "Error"
+msgstr ""
+
+#: templates/parts/add_classified.php:280
+#: templates/parts/edit_classified.php:240
+msgid "please correct errors found below!"
+msgstr "por favor corrija los errores encontrados por debajo!"
+
+#: templates/parts/add_classified.php:423
+#: templates/parts/edit_classified.php:358
+msgid "Thank you! "
+msgstr "Gracias!"
+
+#: templates/parts/add_classified.php:423
+msgid "Your classified submission is successful."
+msgstr "Su presentación clasificado tiene éxito."
+
+#: templates/parts/add_classified.php:423
+#: templates/parts/edit_classified.php:358
+msgid "Check"
+msgstr "Comprobar"
+
+#: templates/parts/add_classified.php:529
+#: templates/parts/edit_classified.php:436
+msgid "Make"
+msgstr "Marca"
+
+#: templates/parts/add_classified.php:553
+#: templates/parts/edit_classified.php:460
+msgid "Version"
+msgstr "Versión"
+
+#: templates/parts/add_classified.php:564
+#: templates/parts/edit_classified.php:470
+msgid "Year"
+msgstr "Año"
+
+#: templates/parts/add_classified.php:578
+#: templates/parts/edit_classified.php:484
+msgid "Mileage"
+msgstr "Kilómetros:"
+
+#: templates/parts/add_classified.php:589
+#: templates/parts/edit_classified.php:495
+msgid "Fuel"
+msgstr "Combustible"
+
+#: templates/parts/add_classified.php:604
+#: templates/parts/edit_classified.php:510
+msgid "Engine cm3"
+msgstr "Motor (cm3):"
+
+#: templates/parts/add_classified.php:615
+#: templates/parts/edit_classified.php:521
+msgid "Horsepower hp"
+msgstr "Caballos de fuerza (hp):"
+
+#: templates/parts/add_classified.php:626
+#: templates/parts/edit_classified.php:532
+msgid "Transmission"
+msgstr "Transmisión"
+
+#: templates/parts/add_classified.php:640
+#: templates/parts/edit_classified.php:546
+msgid "Drive"
+msgstr "Conducir"
+
+#: templates/parts/add_classified.php:653
+#: templates/parts/edit_classified.php:559
+msgid "Doors"
+msgstr "Puertas"
+
+#: templates/parts/add_classified.php:667
+#: templates/parts/edit_classified.php:573
+msgid "Seats"
+msgstr "Lugares"
+
+#: templates/parts/add_classified.php:688
+#: templates/parts/edit_classified.php:594
+msgid "Condition"
+msgstr "Estado"
+
+#: templates/parts/add_classified.php:701
+#: templates/parts/edit_classified.php:607
+msgid "VIN"
+msgstr "VIN"
+
+#: templates/parts/add_classified.php:711
+#: templates/parts/edit_classified.php:617
+msgid "Price"
+msgstr "Precio"
+
+#: templates/parts/add_classified.php:770
+#: templates/parts/add_classified.php:805
+#: templates/parts/add_classified.php:846
+#: templates/parts/add_classified.php:893
+#: templates/parts/edit_classified.php:676
+#: templates/parts/edit_classified.php:711
+#: templates/parts/edit_classified.php:752
+#: templates/parts/edit_classified.php:799
+msgid "Next Step"
+msgstr "Siguiente Paso"
+
+#: templates/parts/add_classified.php:782
+#: templates/parts/edit_classified.php:688
+#: templates/single-car-classifieds.php:101
+msgid "Car Equipment"
+msgstr "Equipo del Coche"
+
+#: templates/parts/add_classified.php:804
+#: templates/parts/add_classified.php:845
+#: templates/parts/add_classified.php:892
+#: templates/parts/add_classified.php:997
+#: templates/parts/edit_classified.php:710
+#: templates/parts/edit_classified.php:751
+#: templates/parts/edit_classified.php:798
+#: templates/parts/edit_classified.php:898
+msgid "Back Step"
+msgstr "Paso Atrás"
+
+#: templates/parts/add_classified.php:815
+#: templates/parts/edit_classified.php:721
+msgid "Car Title & Description"
+msgstr "Título de Auto & Descripción"
+
+#: templates/parts/add_classified.php:830
+#: templates/parts/edit_classified.php:736
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/parts/add_classified.php:857
+#: templates/parts/edit_classified.php:763
+msgid "Car Images"
+msgstr "Imágenes de Coches"
+
+#: templates/parts/add_classified.php:863
+#: templates/parts/edit_classified.php:769
+msgid "Upload images"
+msgstr "Subir Imágenes"
+
+#: templates/parts/add_classified.php:903
+#: templates/parts/edit_classified.php:809
+msgid "Seller Details"
+msgstr "Detalles del Vendedor"
+
+#: templates/parts/add_classified.php:912
+#: templates/parts/edit_classified.php:817
+#: templates/single-car-classifieds.php:293
+msgid "First Name"
+msgstr "Nombre"
+
+#: templates/parts/add_classified.php:922
+#: templates/parts/edit_classified.php:827
+#: templates/single-car-classifieds.php:300
+msgid "Last Name"
+msgstr "Apellido"
+
+#: templates/parts/add_classified.php:932
+#: templates/parts/edit_classified.php:837
+#: templates/single-car-classifieds.php:327
+msgid "Company"
+msgstr "Empresa"
+
+#: templates/parts/add_classified.php:941
+#: templates/parts/edit_classified.php:846
+msgid "Email"
+msgstr "Correo Electrónico"
+
+#: templates/parts/add_classified.php:950
+#: templates/parts/edit_classified.php:855
+#: templates/single-car-classifieds.php:317
+msgid "Phone"
+msgstr "Teléfono"
+
+#: templates/parts/add_classified.php:960
+#: templates/parts/edit_classified.php:865
+#: templates/single-car-classifieds.php:334
+msgid "Country"
+msgstr "País"
+
+#: templates/parts/add_classified.php:976
+#: templates/parts/edit_classified.php:877
+#: templates/single-car-classifieds.php:341
+msgid "State"
+msgstr ""
+
+#: templates/parts/add_classified.php:986
+#: templates/parts/edit_classified.php:887
+#: templates/single-car-classifieds.php:348
+msgid "Town"
+msgstr "Ciudad"
+
+#: templates/parts/add_classified.php:998
+#: templates/parts/edit_classified.php:899
+msgid "Finish"
+msgstr "Terminar"
+
+#: templates/parts/edit_classified.php:358
+msgid "Car edited successfully."
+msgstr "Coche editado con éxito."
+
+#: templates/parts/edit_classified.php:989
+msgid "Did you try to edit a classified which doesn't belong to you ?"
+msgstr "¿Has intentado editar un anuncio que no pertenece a usted?"
+
+#: templates/parts/my_membership.php:14
+msgid "change membership"
+msgstr ""
+
+#: templates/parts/my_membership.php:29
+msgid "Purchase date"
+msgstr "Fecha de adquisición"
+
+#: templates/parts/my_membership.php:35
+msgid "Expiry date"
+msgstr "Fecha de expiración"
+
+#: templates/parts/my_membership.php:41
+msgid "Classifieds posts left"
+msgstr "Clasificados mensajes dejados"
+
+#: templates/parts/my_membership.php:60
+msgid "Classifieds images limit"
+msgstr "Clasificados imágenes límite"
+
+#: templates/parts/my_membership.php:90
+#: templates/parts/select_membership.php:133
+msgid "for "
+msgstr "durante"
+
+#: templates/parts/my_membership.php:90
+msgid " days"
+msgstr "días"
+
+#: templates/parts/my_membership.php:101
+msgid "Sorry, you dont have membership package yet!"
+msgstr "Lo sentimos, usted no tiene paquete de membresía todavía!"
+
+#: templates/parts/my_transactions.php:29
+msgid "Date"
+msgstr "Fecha"
+
+#: templates/parts/my_transactions.php:30
+msgid "Status"
+msgstr "Estado"
+
+#: templates/parts/my_transactions.php:44
+msgid "Transactions history empty."
+msgstr "Transacciones historia vacía."
+
+#: templates/parts/select_membership.php:44
+msgid "No gateways available!"
+msgstr ""
+
+#: templates/parts/select_membership.php:54
+msgid "Thank you!"
+msgstr "Gracias!"
+
+#: templates/parts/select_membership.php:55
+msgid "You have purchased membership package. Check out"
+msgstr "Usted ha comprado el paquete de membresía. echa un vistazo"
+
+#: templates/parts/select_membership.php:70
+msgid "Warning!"
+msgstr "¡Advertencia!"
+
+#: templates/parts/select_membership.php:96
+msgid "your current package"
+msgstr ""
+
+#: templates/parts/select_membership.php:128
+msgid "Classifieds expiration"
+msgstr "Clasificados de caducidad"
+
+#: templates/parts/select_membership.php:142
+msgid "Membership package expiration"
+msgstr "Paquete de membresía de caducidad"
+
+#: templates/parts/select_membership.php:159
+msgid " images"
+msgstr "imágenes"
+
+#: templates/parts/select_membership.php:164
+msgid "Pay with"
+msgstr "Pagar con"
+
+#: templates/parts/select_membership.php:172
+msgid "No gateways available"
+msgstr "No hay entradas disponibles"
+
+#: templates/parts/select_membership.php:182
+msgid "Checkout"
+msgstr "Pagar"
+
+#: templates/single-car-classifieds.php:105
+msgid "Car Description"
+msgstr "Descripción del Coche"
+
+#: templates/single-car-classifieds.php:109
+msgid "Contact Seller"
+msgstr "Contactar Proveedor"
+
+#: templates/single-car-classifieds.php:122
+msgid "Make:"
+msgstr "Marca:"
+
+#: templates/single-car-classifieds.php:130
+msgid "Model:"
+msgstr "Modelo:"
+
+#: templates/single-car-classifieds.php:138
+msgid "Made Year:"
+msgstr "Año Producción:"
+
+#: templates/single-car-classifieds.php:154
+msgid "VIN:"
+msgstr "VIN:"
+
+#: templates/single-car-classifieds.php:162
+msgid "Version:"
+msgstr "Versión:"
+
+#: templates/single-car-classifieds.php:178
+msgid "Engine (cm3):"
+msgstr "Motor (cm3):"
+
+#: templates/single-car-classifieds.php:186
+msgid "Horsepower (hp):"
+msgstr "Caballos de fuerza (hp):"
+
+#: templates/single-car-classifieds.php:194
+msgid "Transmission:"
+msgstr "Transmisión:"
+
+#: templates/single-car-classifieds.php:202
+msgid "Doors:"
+msgstr "Puertas:"
+
+#: templates/single-car-classifieds.php:210
+msgid "Condition:"
+msgstr "Estado:"
+
+#: templates/single-car-classifieds.php:218
+msgid "Drive:"
+msgstr "Conducir:"
+
+#: templates/single-car-classifieds.php:219
+msgid " drive"
+msgstr "conducir"
+
+#: templates/single-car-classifieds.php:226
+msgid "Seats:"
+msgstr "Asientos:"
+
+#: templates/single-car-classifieds.php:234
+msgid "Color:"
+msgstr "Color:"
+
+#: templates/single-car-classifieds.php:242
+msgid "Price:"
+msgstr "Precio:"
+
+#: templates/single-car-classifieds.php:250
+msgid "Price Type:"
+msgstr ""
+
+#: templates/single-car-classifieds.php:258
+msgid "Warranty:"
+msgstr ""
+
+#: templates/single-car-classifieds.php:309
+msgid "show email"
+msgstr "mostrar email"
+
+#: templates/single-car-classifieds.php:319
+msgid "show phone"
+msgstr "mostrar teléfono"
+
+#~ msgid "Settings saved."
+#~ msgstr "Ajustes guardados."
+
+#~ msgid "INR"
+#~ msgstr "INR"
+
+#~ msgid "RUB"
+#~ msgstr "RUB"
+
+#~ msgid "Search Widget Settings"
+#~ msgstr "Buscar Ajustes Widget"
+
+#~ msgid "Enable on Pages"
+#~ msgstr "Activar en las Páginas"
+
+#~ msgid ""
+#~ "Enable search cars widget outside of Car Classifieds page ? If enabled "
+#~ "the widget will be visible everywhere."
+#~ msgstr ""
+#~ "Habilitar los buscadores widget de fuera de Anuncios auto página? Si está "
+#~ "habilitado el widget será visible en todas partes."
+
+#~ msgid "JPro Cars Pages"
+#~ msgstr "JPro Coches Páginas"
+
+#~ msgid "All Pages"
+#~ msgstr "Todas las páginas"
+
+#~ msgid "Search by Make"
+#~ msgstr "Búsqueda por Marca"
+
+#~ msgid "Enable search cars by make in search widget ?"
+#~ msgstr "Habilitar coches de búsqueda por marca en widget de búsqueda?"
+
+#~ msgid "Enable"
+#~ msgstr "Habilitar"
+
+#~ msgid "Search by Year"
+#~ msgstr "Búsqueda por Año"
+
+#~ msgid "Enable search cars by year in search widget ?"
+#~ msgstr "Habilitar los buscadores por año en widget de búsqueda?"
+
+#~ msgid "Search by Condition"
+#~ msgstr "Búsqueda por Estado"
+
+#~ msgid "Enable search cars by condition in search widget ?"
+#~ msgstr ""
+#~ "Habilitar coches de búsqueda por la condición en widget de búsqueda?"
+
+#~ msgid "Search by Price"
+#~ msgstr "Búsqueda por Precio"
+
+#~ msgid "Enable search cars by price in search widget ?"
+#~ msgstr "Habilitar coches de búsqueda por precio en widget de búsqueda?"
+
+#~ msgid "Search by Mileage"
+#~ msgstr "Búsqueda por Kilómetro"
+
+#~ msgid "Enable search cars by mileage in search widget ?"
+#~ msgstr "Habilitar los buscadores por kilometraje en widget de búsqueda?"
+
+#~ msgid "Search by Location"
+#~ msgstr "Buscar Localización"
+
+#~ msgid "Enable search cars by location in search widget ?"
+#~ msgstr ""
+#~ "Habilitar coches de búsqueda por localización en widget de búsqueda?"
+
+#~ msgid "Redirecting to Skrill..."
+#~ msgstr "Redirigiendo a Skrill..."
+
+#~ msgid "Purchase"
+#~ msgstr "Compra"
+
+#~ msgid "JPro Cars: Search Cars"
+#~ msgstr "JPro Coches: Buscar Autos"
+
+#~ msgid "Car classifieds search cars widget."
+#~ msgstr "Alquiler de Coches de búsqueda de widgets."
+
+#~ msgid "- Make -"
+#~ msgstr "- Marca -"
+
+#~ msgid "- Year -"
+#~ msgstr "- Año -"
+
+#~ msgid "- Condition -"
+#~ msgstr "- Estado -"
+
+#~ msgid "- Location -"
+#~ msgstr "- Ubicación -"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "- Model -"
+#~ msgstr "- Modelo -"
+
+#~ msgid "- Year from -"
+#~ msgstr "- Año de -"
+
+#~ msgid "- Year to -"
+#~ msgstr "- Año de -"
+
+#~ msgid "- Fuel -"
+#~ msgstr "- Combustible -"
+
+#~ msgid "negotiable"
+#~ msgstr "efecto negociable"
+
+#~ msgid "new"
+#~ msgstr "nuevo"
+
+#~ msgid "used"
+#~ msgstr "usado"
+
+#~ msgid "left drive"
+#~ msgstr "conducción izquierda"
+
+#~ msgid "right drive"
+#~ msgstr "conducción derecho"
+
+#~ msgid "Error: "
+#~ msgstr "Error:"
+
+#~ msgid "manual"
+#~ msgstr "manual"
+
+#~ msgid "drive"
+#~ msgstr "conducción"
+
+#~ msgid "month's"
+#~ msgstr "Meses"
+
+#~ msgid "Payment unsuccessful page"
+#~ msgstr "Error en el pago"
+
+#~ msgid "Expire date"
+#~ msgstr "Fecha de expiración:"
+
+#~ msgid "You can use next tags which will be replaced with invidual user info"
+#~ msgstr ""
+#~ "Puede utilizar próximos etiquetas que serán reemplazadas con la "
+#~ "información de usuario individual"

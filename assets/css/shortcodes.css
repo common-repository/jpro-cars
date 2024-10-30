@@ -1,0 +1,75 @@
+/*
+ JPro Cars Shortcodes
+ @since 0.3
+ @version 0.1
+*/
+ div.jp-shortcode.owl-carousel {
+	margin-bottom: 30px;
+ }
+
+ div.owl-carousel img {
+	border-right: 4px solid #ced6db;
+	border-bottom: 3px solid #ced6db;
+ }
+ 
+ span.jp-shortcode.car-price {
+	font-size: 16px;
+	background-color: #F5AE2D;
+	padding: 5px 10px;
+	position: absolute;
+	color: #fff;
+	top: 0;
+	left: 0;
+ }
+ 
+ span.jp-shortcode.car-title {
+	font-size: 16px;
+	background: rgba( 245, 174, 45, 0.8 );
+	padding: 5px 10px;
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	width: 100%;
+ }
+ 
+ span.jp-shortcode.car-title a {
+	text-decoration: none;
+	color: #fff;
+ }
+ 
+/*
+ jpro_cars_search Shortcode
+*/
+.jpro-advanced-search-wrapper {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	background-image: url('../img/search_bg.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jpro-advanced-search-container {
+	padding: 15px;
+}
+
+.jpro-advanced-search-panel {
+	background: rgba( 255, 255, 255, .4 );
+	padding: 15px;
+}
+
+.jpro-advanced-search-panel label {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.jpro-advanced-search-panel label.jp-price,
+.jpro-advanced-search-panel label.jp-mileage {
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	color: #414141;
+	width: 85%;
+}
